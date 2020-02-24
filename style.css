@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+
+* {
+  font-family: "ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #181818;
+  color: #cccccc;
+  text-align: center;
+}
+input {
+  width: 40px;
+  height: 30px;
+  text-align: center;
+  border: 2px solid rgba(239, 115, 0, 0.71);
+  border-radius: 10px;
+  background-color: rgba(239, 115, 0, 0.35);
+  transition: ease-in-out 0.5s;
+  color: rgba(217, 106, 2, 0.71);
+}
+input:hover {
+  background-color: rgba(239, 115, 0, 0.5);
+}
+button {
+  cursor: pointer;
+  background-color: rgba(99, 255, 203, 0.35);
+  border: 2px solid #63ffcb;
+  border-radius: 10px;
+  color: #3fc498;
+  height: 34px;
+  width: 100px;
+  transition: ease-in-out 0.5s;
+}
+button:hover {
+  background-color: rgba(99, 255, 203, 0.5);
+}
+#thing {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+#eq,
+#sol {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#eq {
+  font-size: 1.2em;
+}
